@@ -1,0 +1,98 @@
+.homepage-navbar {
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  padding: 12px 0 24px;
+}
+
+.homepage-navbar__title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.homepage-navbar__user {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homepage-navbar__user button {
+  background-color: #fff;
+  color: #364fc7;
+  font-size: 12px;
+  padding: 4px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.homepage-navbar__user-register {
+  margin-right: 20px;
+}
+
+.homepage-header h1,
+.homepage-header p {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.homepage-header .btn {
+  background-color: #339af0;
+  color: #fff;
+  border: none;
+  height: 36px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.homepage-header__input {
+  background-color: #fff;
+  display: grid;
+  width: 100%;
+  height: 48px;
+  grid-template-columns: 3fr 3fr 3fr 1fr;
+  border: 2px solid #ffb700;
+  margin-top: 40px;
+  border-radius: 4px;
+  transform: translateY(50%);
+}
+
+.homepage-header__input button {
+  margin: auto;
+}
+
+.homepage-header__input input {
+  width: 100%;
+  border: none;
+}
+
+.homepage-header__input input:focus-visible {
+  outline: none;
+}
+
+.homepage-header__input-destination,
+.homepage-header__input-calendar,
+.homepage-header__input-book {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.homepage-header__input-destination i,
+.homepage-header__input-calendar i,
+.homepage-header__input-book i {
+  margin-right: 4px;
+  opacity: 0.5;
+}
+
+.date {
+  position: absolute;
+  width: 160%;
+  top: 50px;
+  left: 24px;
+  z-index: 9999;
+}
+
+.detail-page .homepage-header,
+.searchpage .homepage-header {
+  display: none;
+}

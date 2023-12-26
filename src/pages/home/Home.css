@@ -1,0 +1,14 @@
+.container,
+.form {
+  background-color: #364fc7;
+}
+
+.container,
+.content,
+.footer {
+  padding: 0 220px;
+}
+
+.content {
+  margin-top: 12px;
+}

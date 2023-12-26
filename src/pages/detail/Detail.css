@@ -1,0 +1,103 @@
+.detail-page .content {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.detail-page .content > * {
+  margin-bottom: 8px;
+}
+
+.detail-name,
+.detail-booking__title {
+  font-size: 24px;
+}
+
+.detail-address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-distance {
+  color: #1c7ed6;
+  font-weight: 600;
+}
+
+.detail-price {
+  color: #37b24d;
+  font-weight: 600;
+}
+
+.btn-booking {
+  position: absolute;
+  right: 220px;
+  top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.detail-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.detail-photos img {
+  width: 100%;
+}
+
+.detail-booking {
+  display: grid;
+  grid-template-columns: 2.3fr 1fr;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.detail-booking__title {
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.detail-booking__description {
+  font-size: 14px;
+}
+
+.detail-booking__price {
+  background-color: #e7f5ff;
+  padding: 22px 20px;
+}
+
+.detail-booking__price-title {
+  color: #868e96;
+  margin-bottom: 12px;
+}
+
+.detail-booking__price-description {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.detail-nine_night_price {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.detail-nine_night_price span:first-child {
+  font-weight: 700;
+}
+
+.detail-booking__price button,
+.btn-booking {
+  font-size: 16px;
+  background-color: #339af0;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.detail-booking__price button {
+  width: 100%;
+}

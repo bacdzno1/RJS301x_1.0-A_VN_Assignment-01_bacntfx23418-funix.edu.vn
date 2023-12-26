@@ -1,0 +1,29 @@
+.navbar-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.navbar-list li {
+  margin-right: 32px;
+  height: 36px;
+}
+
+.navbar-list li.active {
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.navbar-list a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 8px;
+}
+
+.navbar-list i {
+  margin-right: 8px;
+}

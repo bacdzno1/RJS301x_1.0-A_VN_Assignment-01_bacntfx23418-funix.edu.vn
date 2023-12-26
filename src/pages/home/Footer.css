@@ -1,0 +1,12 @@
+.footer {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 2;
+  color: #339af0;
+}
